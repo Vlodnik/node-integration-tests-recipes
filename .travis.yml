@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HQo6vmDlHLk3IP/cjwcZiAzIpo9zQYAXkXghor5GskkQ3Esyh2OMeaUC74Mb7Wj4ir4fgzuLsgyMBQlMNKPsmFHcrIkdyAXlkMgN+95DXwc8QTVNI5Bxk3ak72WxPbbvodTRaURYD/tbsUoc9fVcjkpR/NOJqOPzSxCd68ewHMCWmMQDrN9/oEFpAnh16JuS4CLJOsLBWSH1yzl2OhGfIenP55kwx5X311sITw95ej4CL0GQY+ejcVN75mugwAg1z9h/6ZRj99ehhRLjf5ja9VTLy0eYauwie7n/OEYtV7QEKOiUDg7hbNLGBtOBCEphGhZV/UpQ7IwY2wz8Dk4PDN4o3WEwS/IMAEwwavh8lApVHd06aA1akoXYnR6NFyUR/BJD/Yf4XloyX4MvOHBIhR01/0MhREBXagkgyKT19nrIMyIAXP+lCiqymgHE79m7GMUnjzXOdRRr7CCd3Ho2QUs2145ObvbLuwKl82T834cFtw5iuXzcFYxlQBWq1xbmjAOKqG9ERA/u0mD7jzwwMAaQ4Xh//aCBpuQUR01PkDMqpBWZiwMsiLqMPTsGCOoxDrkYQKOBPReeQ5N0zJ+rn6rHw8Agja1UV+BN0dLLPzRxQUuhLfZK0T42tivaU1IclqC1AOsVdKIM+RQrz44idEdnLws9vfqEOVOUHlndc44=
+  app: pacific-river-15666
+  on:
+    repo: Vlodnik/node-integration-tests-recipes
